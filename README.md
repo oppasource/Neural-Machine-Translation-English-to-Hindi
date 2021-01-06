@@ -3,7 +3,7 @@
 Repo contains code to train different kinds of Neural Machine Translation Models. Translation is done from English to Hindi to see the models in action.
 
 Following types of generation models were explored for this task:
-- Basic Sequence-to-Sequence
+- Vanila Sequence-to-Sequence
 - Sequence-to-Sequence + Basic Attention
 - Sequence-to-Sequence + Global Attention
 - Sequence-to-Sequence + Attention + Coverage
@@ -27,3 +27,5 @@ Following is the description of different files and folders in this project:
 - `generate_output.py` file generates the output for test set and gives hindi translations for english sentences.
 
 - `test_input.py` file can be used to get single sentence input translation from the trained model in real-time.
+
+It can be seen from the outputs that the coverage does help in reducing the repetative nature of the output which is given by Sequence-to-Sequence + Attention methods.
