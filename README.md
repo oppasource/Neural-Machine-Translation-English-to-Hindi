@@ -7,3 +7,15 @@ Repo contains code to train different kinds of Neural Machine Translation Models
 - `trained_models/` folder will contains the trained models once the training is done.
 
 - `output/` folder contains the outputs that was given by all the different models.
+
+` `vocab_generation.py` is used to assign IDs to tokens from the training set for english and hindi both.
+
+- `train.py` file is the main file is the run to train different kinds of model.
+
+- `model.py` file contains code for 5 of the models excluding coverage.
+
+- `coverage_model.py` file contains code of the coverage model.
+
+- `generate_output.py` file generates the output for test set and gives hindi translations for english sentences.
+
+- `test_input.py` file can be used to get single sentence input translation from the trained model in real-time.
