@@ -1,0 +1,26 @@
+Due Date:
+    25th March 2019
+    
+Models:
+Using implementations of following paper make 4 translation models and check their performance on test data
+        -[Sequence to Sequence Learning with Neural Networks](https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf)
+            - To get the ball rolling.
+        -[Neural Machine Translation By Jointly Learning To Align And Translate](https://arxiv.org/pdf/1409.0473.pdf)
+            - Basic attention
+        -[Effective Approaches to Attention-based Neural Machine Translation](http://aclweb.org/anthology/D15-1166)
+            - Try the three global attention options, ignore local attention
+        -[Modeling Coverage for Neural Machine Translation](http://www.aclweb.org/anthology/P16-1008)
+            - Does this help for repeated words ?
+
+Textual Data:
+        Enclosed are parallel corpus [https://drive.google.com/open?id=1ilP2_6N0clzTm8IWCQ0MC7MxrJXuOiH3 use your iiit email id to access] for following languages:
+                English Bangla Gujurati Hindi Konkani Malayalam Marathi Punjabi Tamil Telugu
+        Kindly choose a pair (En-IL; where IL is one of [Bangla Gujurati Hindi Konkani Malayalam Marathi Punjabi Tamil Telugu]).
+        Keep in mind while choosing a pair that you have to also evaluate the performance by going through test data.
+        Each pair has 3 sets of data- train, dev and test.
+
+Output:
+	A text file consisting 1st line consist of
+		-Keep your code and model [since model's size will be big] on drive and share the link.
+		-Test input and output [can also be shared via drive]
+		-Analyse of 50 interesting sentences. 
