@@ -4,9 +4,9 @@ Repo contains code to train different kinds of Neural Machine Translation Models
 
 Following types of generation models were explored for this task:
 - Basic Sequence-to-Sequence
-- Seq2Seq with Attention
-- Global Attention
-- Coverage with Attention
+- Sequence-to-Sequence + Basic Attention
+- Sequence-to-Sequence + Global Attention
+- Sequence-to-Sequence + Attention + Coverage
 
 Following is the description of different files and folders in this project:
 
